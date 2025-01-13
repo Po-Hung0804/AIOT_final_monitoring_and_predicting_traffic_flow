@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/dodo/yolov7/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DAPI_EXPORTS -Dmyplugins_EXPORTS --options-file CMakeFiles/myplugins.dir/includes_CUDA.rsp -g -std=c++11 -Xcompiler=-fPIC   -std=c++11 -x cu -c /home/dodo/yolov7/plugin/yololayer.cu -o CMakeFiles/myplugins.dir/plugin/yololayer.cu.o",
+  "file": "/home/dodo/yolov7/plugin/yololayer.cu",
+  "output": "CMakeFiles/myplugins.dir/plugin/yololayer.cu.o"
+},
+{
+  "directory": "/home/dodo/yolov7/build",
+  "command": "/usr/bin/c++ -DAPI_EXPORTS -I/home/dodo/yolov7/include -I/home/dodo/yolov7/plugin -I/usr/local/cuda/targets/aarch64-linux/include -isystem /usr/include/opencv4 -g -std=gnu++11   -std=c++11 -o CMakeFiles/yolov7.dir/main.cpp.o -c /home/dodo/yolov7/main.cpp",
+  "file": "/home/dodo/yolov7/main.cpp",
+  "output": "CMakeFiles/yolov7.dir/main.cpp.o"
+},
+{
+  "directory": "/home/dodo/yolov7/build",
+  "command": "/usr/bin/c++ -DAPI_EXPORTS -I/home/dodo/yolov7/include -I/home/dodo/yolov7/plugin -I/usr/local/cuda/targets/aarch64-linux/include -isystem /usr/include/opencv4 -g -std=gnu++11   -std=c++11 -o CMakeFiles/yolov7.dir/src/block.cpp.o -c /home/dodo/yolov7/src/block.cpp",
+  "file": "/home/dodo/yolov7/src/block.cpp",
+  "output": "CMakeFiles/yolov7.dir/src/block.cpp.o"
+},
+{
+  "directory": "/home/dodo/yolov7/build",
+  "command": "/usr/bin/c++ -DAPI_EXPORTS -I/home/dodo/yolov7/include -I/home/dodo/yolov7/plugin -I/usr/local/cuda/targets/aarch64-linux/include -isystem /usr/include/opencv4 -g -std=gnu++11   -std=c++11 -o CMakeFiles/yolov7.dir/src/calibrator.cpp.o -c /home/dodo/yolov7/src/calibrator.cpp",
+  "file": "/home/dodo/yolov7/src/calibrator.cpp",
+  "output": "CMakeFiles/yolov7.dir/src/calibrator.cpp.o"
+},
+{
+  "directory": "/home/dodo/yolov7/build",
+  "command": "/usr/bin/c++ -DAPI_EXPORTS -I/home/dodo/yolov7/include -I/home/dodo/yolov7/plugin -I/usr/local/cuda/targets/aarch64-linux/include -isystem /usr/include/opencv4 -g -std=gnu++11   -std=c++11 -o CMakeFiles/yolov7.dir/src/model.cpp.o -c /home/dodo/yolov7/src/model.cpp",
+  "file": "/home/dodo/yolov7/src/model.cpp",
+  "output": "CMakeFiles/yolov7.dir/src/model.cpp.o"
+},
+{
+  "directory": "/home/dodo/yolov7/build",
+  "command": "/usr/bin/c++ -DAPI_EXPORTS -I/home/dodo/yolov7/include -I/home/dodo/yolov7/plugin -I/usr/local/cuda/targets/aarch64-linux/include -isystem /usr/include/opencv4 -g -std=gnu++11   -std=c++11 -o CMakeFiles/yolov7.dir/src/postprocess.cpp.o -c /home/dodo/yolov7/src/postprocess.cpp",
+  "file": "/home/dodo/yolov7/src/postprocess.cpp",
+  "output": "CMakeFiles/yolov7.dir/src/postprocess.cpp.o"
+},
+{
+  "directory": "/home/dodo/yolov7/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DAPI_EXPORTS --options-file CMakeFiles/yolov7.dir/includes_CUDA.rsp -g -std=c++11   -std=c++11 -x cu -c /home/dodo/yolov7/src/preprocess.cu -o CMakeFiles/yolov7.dir/src/preprocess.cu.o",
+  "file": "/home/dodo/yolov7/src/preprocess.cu",
+  "output": "CMakeFiles/yolov7.dir/src/preprocess.cu.o"
+}
+]

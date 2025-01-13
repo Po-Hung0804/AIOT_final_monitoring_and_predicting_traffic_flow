@@ -1,0 +1,1 @@
+-I/home/dodo/yolov7/include -I/home/dodo/yolov7/plugin -I"/usr/local/cuda/targets/aarch64-linux/include" -I/usr/include/opencv4
